@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <link rel="stylesheet" href="formulario.css">
+    
+</head>
+<body>
+    <main>
+        <table>
+            <tr id="primera-fila">
+                <td id="tabla-id">ID</td>
+                <td id="tabla-nombre">Nombre</td>
+                <td id="tabla-apellido">Apellido</td>
+                <td id="tabla-identificacion">Identificacion</td>
+                <td id="tabla-acciones">Acciones</td>
+            </tr>
+        </table>
+    </main>
+
+
+    <button id="abrirModal">Nuevo</button>
+    <div id="ventanaModal" class="modal">
+        <div class="contenidoModal">
+            <form id="formulario">
+                <ul>  
+                    <li>
+                        <label for="Id">ID:</label>
+                        <input type="text" id="Id" class="Id" name="user_Id">
+                    </li>
+                    <li>
+                        <label for="nombre">Nombre: </label>
+                        <input type="text" id="nombre" class="nombre" name="user_name">
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido: </label>
+                        <input type="text" id="apellido" class="apellido" name="user_lastName">
+                    </li>
+                    <li>
+                        <label for="identificacion">Identificacion</label>
+                        <input type="text" id="identificacion" class="identificacion" name="user_identification">
+                    </li>
+                </ul>
+            </form>
+            <button id="botonOk">Aceptar</button>
+            <button id ="cerrar" class="botonCancelar">Cancelar</button>
+        </div>
+    </div>
+
+
+
+    <script src="formulario 2.js"></script>
+</body>
+</html>
